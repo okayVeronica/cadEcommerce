@@ -20,11 +20,10 @@ O **form_cadEndereco** é uma aplicação web que visa simplificar o gerenciamen
 ## 🌼 Sobre a Atividade
 Este projeto foi desenvolvido dentro de sala de aula, com o apoio e orientação do professor Leonardo Rocha. O desafio foi colocar em prática o que aprendemos na disciplina de Programação Web II
 
-**``O projeto teve como foco principal:``**
-
-  -``Integração entre Frontend e Backend:`` Aprendemos a conectar a interface que os usuários veem com a lógica que roda nos bastidores, garantindo que tudo funcione de maneira coesa. 
-  -``Gerenciamento de Banco de Dados:`` Trabalhamos na organização e armazenamento eficiente dos dados, assegurando que o sistema possa lidar com informações de maneira eficaz.
-  -``Desenvolvimento de Funcionalidades Dinâmicas:`` Implementamos características interativas para tornar a experiência do usuário mais envolvente e intuitiva.
+**``O projeto teve como foco principal:``** 🌹
+- **Integração entre Frontend e Backend:** Aprendemos a conectar a interface que os usuários veem com a lógica que roda nos bastidores, garantindo que tudo funcione de maneira coesa. 
+- **Gerenciamento de Banco de Dados:** Trabalhamos na organização e armazenamento eficiente dos dados, assegurando que o sistema possa lidar com informações de maneira eficaz.
+- **Desenvolvimento de Funcionalidades Dinâmicas:** Implementamos características interativas para tornar a experiência do usuário mais envolvente e intuitiva.
 
 ## 💻 Tecnologias Utilizadas
 
