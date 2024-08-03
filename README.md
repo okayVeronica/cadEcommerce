@@ -85,5 +85,5 @@ Este projeto foi desenvolvido para aplicar conhecimentos adquiridos na disciplin
 - [MDN Web Docs (HTML, CSS, JavaScript)](https://developer.mozilla.org/)
 
 ## 💖 Autores
-- [Verônica Borges](https://github.com/seu_usuario)
+- [Verônica Borges](https://github.com/okayVeronica)
 - [Leonardo Rocha](https://github.com/usuario_colaborador)
