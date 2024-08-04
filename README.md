@@ -1,12 +1,19 @@
 #   🎀✨ form_cadEndereco ✨🎀
  
 [Introdução](#-introdu%C3%A7%C3%A3o)
+
 [Descrição](#-descri%C3%A7%C3%A3o)
+
 [Sobre a Atividade](#-sobre-a-atividade)
+
 [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+
 [Funcionalidades](#%EF%B8%8F-funcionalidades)
+
 [Exemplo de Uso](#-exemplo-de-uso)
+
 [Fontes Consultadas](#-fontes-consultadas )
+
 [Autores](#-autores)
 
 ![Capa do projeto]()
