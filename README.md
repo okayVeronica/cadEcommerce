@@ -1,4 +1,4 @@
-#   🎀✨ form_cadEndereco ✨🎀
+![TaylorTaylorSwiftGIF (2)](https://github.com/user-attachments/assets/e7e994e6-5414-4e15-9abb-b1c7e47bdcfb)![TaylorTaylorSwiftGIF](https://github.com/user-attachments/assets/78e64bba-e7de-4102-85f8-cb53c672caab)![MuaKissGIF (2)](https://github.com/user-attachments/assets/ce5ed561-f9c3-4261-85a0-81d34f506c0d)#   🎀✨ form_cadEndereco ✨🎀
  
 [Introdução](#-introdu%C3%A7%C3%A3o)
 
@@ -15,6 +15,9 @@
 [Fontes Consultadas](#-fontes-consultadas )
 
 [Autores](#-autores)
+
+![SanrioSanrioCharactersGIF](https://github.com/user-attachments/assets/784a0d6e-f24e-4394-a6e6-2624bbaa0541)
+
 
 ![Capa do projeto]()
 
@@ -83,7 +86,8 @@ Este projeto foi desenvolvido dentro de sala de aula, com o apoio e orientação
    - Insira os detalhes do produto, selecione a categoria e a marca, e clique em "Salvar".
 
 3. **``Adição ao Carrinho:``**
-   - Vá para a lista de produtos.
+   - Vá p![Uploading SanrioMyMelodyGIF.gif…]()
+ara a lista de produtos.
    - Clique em "Adicionar ao Carrinho" ao lado do produto desejado.
 
 4. **``Visualização do Pedido:``**
@@ -97,3 +101,10 @@ Este projeto foi desenvolvido dentro de sala de aula, com o apoio e orientação
 ## 💖 Autores
 - [Verônica Borges](https://github.com/okayVeronica)
 - [Leonardo Rocha](https://github.com/LeonardoRochaMarista)
+
+![TaylorTaylorSwiftGIF (3)](https://github.com/user-attachments/assets/55504d1b-18a2-4f11-8ed3-ec2b4853ec09)
+
+
+
+
+
