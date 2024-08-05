@@ -21,6 +21,10 @@
 
 ![Capa do projeto]()
 
+## 🎀✨ form_cadEndereco ✨🎀
+
+![SanrioSanrioCharactersGIF](https://github.com/user-attachments/assets/784a0d6e-f24e-4394-a6e6-2624bbaa0541)
+
 ## 📌 Introdução
 **form_cadEndereco** é um sistema de pedido de compra desenvolvido como parte da disciplina de Programação Web II, ministrada pelo professor Leonardo Rocha. Nosso objetivo é oferecer uma plataforma intuitiva para gerenciar categorias, marcas e produtos, além de proporcionar uma experiência de compra fluida e eficiente.
 
@@ -93,7 +97,6 @@ Este projeto foi desenvolvido em sala de aula, com o apoio e orientação do pro
 2. Revise os itens e clique em "Finalizar Pedido" para visualizar o resumo.
 
 ## 📝 Exemplos Auxiliares de Uso dos Métodos PHP
-Aqui estão alguns exemplos dos métodos PHP utilizados no cadastro:
 
 ### Cadastro de Categoria (PHP)
 ```php
@@ -110,3 +113,65 @@ function adicionarCategoria($nomeCategoria) {
     $conn->close();
 }
 ?>
+
+## Inserção de Marca
+<?php
+include('controller/conexao.php');
+
+$descricao = $_POST['descricao'];
+
+echo "<h3> Descrição: $descricao </h3></br>";
+
+$cad_marca = "INSERT INTO marca(DESCRICAO) VALUES ('$descricao')";
+
+if(mysqli_query($mysqli,$cad_marca)){
+    echo "<h1>Nova marca cadastrada com sucesso</h1></br>";
+}else{
+    echo "Erro: " . $cad_marca . "</br>" . mysqli_error($mysqli);
+}
+
+mysqli_close($mysqli);
+?>
+
+## Inserção de Produto
+<?php
+include_once('controller/conexao.php');
+
+$categoria = $_POST['seleciona_categoria'];
+$marca = $_POST['seleciona_marca'];
+$nome_produto = $_POST['nome'];
+$descricao = $_POST['descricao'];
+$estoque = $_POST['estoque'];
+$preco = $_POST['preco'];
+
+$grava_produto="INSERT INTO produtos (IDCATEGORIA, IDMARCA, NOME, DESCRICAO, ESTOQUE, PRECO) VALUES ('$categoria', '$marca', '$nome_produto', '$descricao', '$estoque', '$preco')";
+
+$resute_gravacao = mysqli_query($mysqli, $grava_produto);
+if(mysqli_affected_rows($mysqli) != 0){
+    echo "
+    <META HTTP-EQUIV=REFRESH CONTENT = 'O;URL=produtos.php'>
+    <script type=\"text/javascript\">
+      alert('produto cadastrado com sucesso');
+    </script>
+    ";
+}else{
+    echo"
+    <META HTTP-EQUIV=REFRESH CONTENT = 'O;URL=produto.php'>
+    <script type=\"text/javascript\">
+    alert('Produto não cadastrado, tente novamente');
+    </script>
+    ";
+}
+?>
+
+## 📷 Imagens da Aplicação e Banco de Dado
+ 
+## 🔗 Fontes Consultadas 
+- [Leonardo Rocha](https://github.com/LeonardoRochaMarista)
+- [chatGPT](https://openai.com/chatgpt/)
+ 
+## 💖 Autores
+- [Verônica Borges](https://github.com/okayVeronica)
+- [Leonardo Rocha](https://github.com/LeonardoRochaMarista)
+ 
+![TaylorTaylorSwiftGIF (3)](https://github.com/user-attachments/assets/55504d1b-18a2-4f11-8ed3-ec2b4853ec09)
