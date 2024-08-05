@@ -114,7 +114,7 @@ function adicionarCategoria($nomeCategoria) {
 }
 ?>
 
-## Inserção de Marca
+### Inserção de Marca
 <?php
 include('controller/conexao.php');
 
@@ -133,7 +133,7 @@ if(mysqli_query($mysqli,$cad_marca)){
 mysqli_close($mysqli);
 ?>
 
-## Inserção de Produto
+### Inserção de Produto
 <?php
 include_once('controller/conexao.php');
 
@@ -164,7 +164,7 @@ if(mysqli_affected_rows($mysqli) != 0){
 }
 ?>
 
-## 📷 Imagens da Aplicação e Banco de Dado
+### 📷 Imagens da Aplicação e Banco de Dado
  
 ## 🔗 Fontes Consultadas 
 - [Leonardo Rocha](https://github.com/LeonardoRochaMarista)
