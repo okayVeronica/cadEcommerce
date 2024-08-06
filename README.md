@@ -21,28 +21,6 @@
 
 ![Capa do projeto]()
 
-##  🎀✨ form_cadEndereco ✨🎀
-[Introdução](#-introdu%C3%A7%C3%A3o)
- 
-[Descrição](#-descri%C3%A7%C3%A3o)
- 
-[Sobre a Atividade](#-sobre-a-atividade)
- 
-[Tecnologias Utilizadas](#-tecnologias-utilizadas)
- 
-[Funcionalidades](#%EF%B8%8F-funcionalidades)
- 
-[Exemplo de Uso](#-exemplo-de-uso)
- 
-[Fontes Consultadas](#-fontes-consultadas )
- 
-[Autores](#-autores)
- 
-![SanrioSanrioCharactersGIF](https://github.com/user-attachments/assets/784a0d6e-f24e-4394-a6e6-2624bbaa0541)
- 
- 
-![Capa do projeto]()
- 
 ## 📌 Introdução
 **form_cadEndereco**! Este projeto é um sistema de pedido de compra desenvolvido como parte da disciplina de Programação Web II, ministrada pelo professor Leonardo Rocha, Nosso objetivo é oferecer uma plataforma intuitiva para gerenciar categorias, marcas e produtos, além de proporcionar uma experiência de compra fluida e eficiente.
  
@@ -102,18 +80,20 @@ Este projeto foi desenvolvido dentro de sala de aula, com o apoio e orientação
 1. **``Cadastro de Categoria:``**
    - Acesse a página de categorias e clique em "Adicionar Nova Categoria".
    - Preencha o formulário com o nome da categoria e clique em "Salvar".
- 
-     // Exemplo de código PHP para adicionar uma nova categoria
-if (isset($_POST['descricao'])) {
-    $descricao = $_POST['descricao'];
-    $sql = "INSERT INTO categoria (DESCRICAO) VALUES ('$descricao')";
-    if (mysqli_query($mysqli, $sql)) {
-        echo "Nova categoria cadastrada com sucesso!";
+   - 
+``<?php
+// Função para adicionar nova categoria
+function adicionarCategoria($nomeCategoria) {
+    $conn = new mysqli('localhost', 'usuario', 'senha', 'banco');
+    $sql = "INSERT INTO categorias (nome) VALUES ('$nomeCategoria')";
+    if ($conn->query($sql) === TRUE) {
+        echo "Categoria adicionada com sucesso";
     } else {
-        echo "Erro: " . $sql . "<br>" . mysqli_error($mysqli);
+        echo "Erro: " . $sql . "<br>" . $conn->error;
     }
+    $conn->close();
 }
-?>
+?>``
  
 2. **``Cadastro de Produto:``**
    - Navegue até a página de produtos e clique em "Adicionar Novo Produto".
