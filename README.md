@@ -104,6 +104,7 @@ function adicionarCategoria($nomeCategoria) {
  ### **``Cadastro de Produto:``**
    - Navegue até a página de produtos e clique em "Adicionar Novo Produto".
    - Insira os detalhes do produto, selecione a categoria e a marca, e clique em "Salvar".
+
 ```
 if (isset($_POST['nome']) && isset($_POST['descricao']) && isset($_POST['estoque']) && isset($_POST['preco']) && isset($_POST['seleciona_categoria']) && isset($_POST['seleciona_marca'])) {
     $nome = $_POST['nome'];
