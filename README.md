@@ -80,14 +80,6 @@ Este projeto foi desenvolvido em sala de aula, com o apoio e orientação do pro
 
 ## 📋 Exemplo de Uso
 
-### Cadastro de Categoria
-1. Acesse a página de categorias e clique em "Adicionar Nova Categoria".
-2. Preencha o formulário com o nome da categoria e clique em "Salvar".
-
-### Cadastro de Produto
-1. Navegue até a página de produtos e clique em "Adicionar Novo Produto".
-2. Insira os detalhes do produto, selecione a categoria e a marca, e clique em "Salvar".
-
 ### Adição ao Carrinho
 1. Vá para a lista de produtos.
 2. Clique em "Adicionar ao Carrinho" ao lado do produto desejado.
@@ -99,6 +91,9 @@ Este projeto foi desenvolvido em sala de aula, com o apoio e orientação do pro
 ## 📝 Exemplos Auxiliares de Uso dos Métodos PHP
 
 ### Cadastro de Categoria (PHP)
+1. Acesse a página de categorias e clique em "Adicionar Nova Categoria".
+2. Preencha o formulário com o nome da categoria e clique em "Salvar".
+
 ```php
 <?php
 // Função para adicionar nova categoria
@@ -113,8 +108,9 @@ function adicionarCategoria($nomeCategoria) {
     $conn->close();
 }
 ?>
-
+```
 ### Inserção de Marca
+```
 <?php
 include('controller/conexao.php');
 
@@ -132,8 +128,13 @@ if(mysqli_query($mysqli,$cad_marca)){
 
 mysqli_close($mysqli);
 ?>
+```
 
-### Inserção de Produto
+### Cadastro de Produto
+1. Navegue até a página de produtos e clique em "Adicionar Novo Produto".
+2. Insira os detalhes do produto, selecione a categoria e a marca, e clique em "Salvar".
+
+```
 <?php
 include_once('controller/conexao.php');
 
@@ -163,6 +164,7 @@ if(mysqli_affected_rows($mysqli) != 0){
     ";
 }
 ?>
+```
 
 ### 📷 Imagens da Aplicação e Banco de Dado
  
