@@ -21,7 +21,7 @@
 
 ![Capa do projeto]()
 
-## 🎀✨ form_cadEndereco ✨🎀
+# 🎀✨ form_cadEndereco ✨🎀
 
 ![SanrioSanrioCharactersGIF](https://github.com/user-attachments/assets/784a0d6e-f24e-4394-a6e6-2624bbaa0541)
 
@@ -99,7 +99,7 @@ Este projeto foi desenvolvido em sala de aula, com o apoio e orientação do pro
 ## 📝 Exemplos Auxiliares de Uso dos Métodos PHP
 
 ### Cadastro de Categoria (PHP)
-```php
+``php
 <?php
 // Função para adicionar nova categoria
 function adicionarCategoria($nomeCategoria) {
@@ -112,10 +112,10 @@ function adicionarCategoria($nomeCategoria) {
     }
     $conn->close();
 }
-?>
+?>``
 
 ### Inserção de Marca
-<?php
+``<?php
 include('controller/conexao.php');
 
 $descricao = $_POST['descricao'];
@@ -131,10 +131,10 @@ if(mysqli_query($mysqli,$cad_marca)){
 }
 
 mysqli_close($mysqli);
-?>
+?>``
 
 ### Inserção de Produto
-<?php
+``<?php
 include_once('controller/conexao.php');
 
 $categoria = $_POST['seleciona_categoria'];
@@ -162,7 +162,7 @@ if(mysqli_affected_rows($mysqli) != 0){
     </script>
     ";
 }
-?>
+?>``
 
 ### 📷 Imagens da Aplicação e Banco de Dado
  
