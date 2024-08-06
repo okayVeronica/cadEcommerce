@@ -96,15 +96,12 @@ Este projeto foi desenvolvido dentro de sala de aula, com o apoio e orientação
 
 ```
 php
-=======
 
 ### Cadastro de Categoria:
 - Acesse a página de categorias e clique em "Adicionar Nova Categoria".
 - Preencha o formulário com o nome da categoria e clique em "Salvar".
 
 ```
-php
->>>>>>> 410f7d46fbeac7e1b9415465da3ffd5bde19bb86
 <?php
 // Função para adicionar nova categoria
 function adicionarCategoria($nomeCategoria) {
@@ -173,11 +170,6 @@ if(mysqli_affected_rows($mysqli) != 0){
     ";
 }
 ?>
-<<<<<<< HEAD
-```
-
-=======
->>>>>>> 410f7d46fbeac7e1b9415465da3ffd5bde19bb86
 ```
 ### **``Adição ao Carrinho:``**
    - Vá para a lista de produtos.
@@ -191,7 +183,6 @@ if (isset($_POST['produto_id']) && isset($_POST['quantidade'])) {
 }
 ?>
 ```
-
 ### **``Visualização do Pedido:``**
  - Acesse o carrinho de compras.
  - Revise os itens e clique em "Finalizar Pedido" para visualizar o resumo.
