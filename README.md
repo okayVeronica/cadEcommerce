@@ -98,7 +98,8 @@ function adicionarCategoria($nomeCategoria) {
 2. **``Cadastro de Produto:``**
    - Navegue até a página de produtos e clique em "Adicionar Novo Produto".
    - Insira os detalhes do produto, selecione a categoria e a marca, e clique em "Salvar".
-// Exemplo de código PHP para adicionar um novo produto
+
+```
 if (isset($_POST['nome']) && isset($_POST['descricao']) && isset($_POST['estoque']) && isset($_POST['preco']) && isset($_POST['seleciona_categoria']) && isset($_POST['seleciona_marca'])) {
     $nome = $_POST['nome'];
     $descricao = $_POST['descricao'];
@@ -115,12 +116,13 @@ if (isset($_POST['nome']) && isset($_POST['descricao']) && isset($_POST['estoque
     }
 }
 ?>
- 
+
+```
 3. **``Adição ao Carrinho:``**
    - Vá para a lista de produtos.
    - Clique em "Adicionar ao Carrinho" ao lado do produto desejado.
 
-// Exemplo de código PHP para adicionar um produto ao carrinho
+```
 if (isset($_POST['produto_id']) && isset($_POST['quantidade'])) {
     $produto_id = $_POST['produto_id'];
     $quantidade = $_POST['quantidade'];
@@ -128,12 +130,12 @@ if (isset($_POST['produto_id']) && isset($_POST['quantidade'])) {
     echo "Produto adicionado ao carrinho!";
 }
 ?>
-
+```
  
 4. **``Visualização do Pedido:``**
    - Acesse o carrinho de compras.
    - Revise os itens e clique em "Finalizar Pedido" para visualizar o resumo.
-// Exemplo de código PHP para visualizar o resumo do pedido
+```
 $total = 0;
 foreach ($_SESSION['carrinho'] as $produto_id => $quantidade) {
     $sql = "SELECT nome, preco FROM produtos WHERE id = '$produto_id'";
@@ -147,7 +149,7 @@ foreach ($_SESSION['carrinho'] as $produto_id => $quantidade) {
 }
 echo "Total do Pedido: " . $total;
 ?>
-
+```
 ![Capa do projeto]()
  
 ## 🔗 Fontes Consultadas 
