@@ -78,7 +78,6 @@ Este projeto foi desenvolvido dentro de sala de aula, com o apoio e orientação
 - 👀 **Revisar a seleção de produtos**: Confirme os produtos escolhidos antes de completar a compra.
 
 ## 📋 Exemplo de Uso
-<<<<<<< HEAD
 
 
 ### Adição ao Carrinho
@@ -95,22 +94,16 @@ Este projeto foi desenvolvido dentro de sala de aula, com o apoio e orientação
 1. Acesse a página de categorias e clique em "Adicionar Nova Categoria".
 2. Preencha o formulário com o nome da categoria e clique em "Salvar".
 
-```php
-=======
- 
-1. **``Cadastro de Categoria:``**
-   - Acesse a página de categorias e clique em "Adicionar Nova Categoria".
-   - Preencha o formulário com o nome da categoria e clique em "Salvar".
-   - 
 ```
->>>>>>> a0b7a07c051eab75e7431741eb78b41040dedfe1
+php
 =======
 
 ### Cadastro de Categoria:
 - Acesse a página de categorias e clique em "Adicionar Nova Categoria".
 - Preencha o formulário com o nome da categoria e clique em "Salvar".
 
-```php
+```
+php
 >>>>>>> 410f7d46fbeac7e1b9415465da3ffd5bde19bb86
 <?php
 // Função para adicionar nova categoria
@@ -126,7 +119,6 @@ function adicionarCategoria($nomeCategoria) {
 }
 ?>
 ```
-<<<<<<< HEAD
 ### Inserção de Marca
 ```
 <?php
@@ -147,7 +139,6 @@ if(mysqli_query($mysqli,$cad_marca)){
 mysqli_close($mysqli);
 ?>
 ```
-
 ### Cadastro de Produto
 1. Navegue até a página de produtos e clique em "Adicionar Novo Produto".
 2. Insira os detalhes do produto, selecione a categoria e a marca, e clique em "Salvar".
@@ -180,28 +171,6 @@ if(mysqli_affected_rows($mysqli) != 0){
     alert('Produto não cadastrado, tente novamente');
     </script>
     ";
-=======
- 
- ### **``Cadastro de Produto:``**
-   - Navegue até a página de produtos e clique em "Adicionar Novo Produto".
-   - Insira os detalhes do produto, selecione a categoria e a marca, e clique em "Salvar".
-
-```
-if (isset($_POST['nome']) && isset($_POST['descricao']) && isset($_POST['estoque']) && isset($_POST['preco']) && isset($_POST['seleciona_categoria']) && isset($_POST['seleciona_marca'])) {
-    $nome = $_POST['nome'];
-    $descricao = $_POST['descricao'];
-    $estoque = $_POST['estoque'];
-    $preco = $_POST['preco'];
-    $categoria = $_POST['seleciona_categoria'];
-    $marca = $_POST['seleciona_marca'];
-    
-    $sql = "INSERT INTO produtos (IDCATEGORIA, IDMARCA, NOME, DESCRICAO, ESTOQUE, PRECO) VALUES ('$categoria', '$marca', '$nome', '$descricao', '$estoque', '$preco')";
-    if (mysqli_query($mysqli, $sql)) {
-        echo "Novo produto adicionado com sucesso!";
-    } else {
-        echo "Erro: " . $sql . "<br>" . mysqli_error($mysqli);
-    }
->>>>>>> a0b7a07c051eab75e7431741eb78b41040dedfe1
 }
 ?>
 <<<<<<< HEAD
