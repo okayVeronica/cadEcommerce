@@ -21,6 +21,7 @@
 
 ![Projeto](capa.png.png)
 
+
 # 📌 Introdução
 **form_cadEndereco** é um sistema de pedido de compra desenvolvido como parte da disciplina de Programação Web II, ministrada pelo professor Leonardo Rocha. Nosso objetivo é oferecer uma plataforma intuitiva para gerenciar categorias, marcas e produtos, além de proporcionar uma experiência de compra fluida e eficiente.
 
@@ -189,7 +190,10 @@ function removerDoCarrinho($produtoId) {
 - **removerDoCarrinho:** Esta função remove um produto específico do carrinho. Se o produto estiver presente, ele é removido.
 
 ## 📸 Imagens da Aplicação e do Banco de Dados:
-
+![Projeto](img4.png)
+![Projeto](img2.png)
+![Projeto](img3.png)
+![Projeto](img1.png)
 
 ![Capa do projeto]()
  
