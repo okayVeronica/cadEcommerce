@@ -191,12 +191,13 @@ function removerDoCarrinho($produtoId) {
 
 ## 📸 Imagens da Aplicação e do Banco de Dados:
 ![Projeto](img4.png)
+
 ![Projeto](img2.png)
+
 ![Projeto](img3.png)
+
 ![Projeto](img1.png)
 
-![Capa do projeto]()
- 
 ## 🔗 Fontes Consultadas 
 - [Leonardo Rocha](https://github.com/LeonardoRochaMarista)
 - [chatGPT](https://openai.com/chatgpt/)
